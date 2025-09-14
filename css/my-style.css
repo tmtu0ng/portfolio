@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+a:hover{ text-decoration: none}
+.navbar .navbar-nav .nav-link{ 
+	font-weight: 500;
+color: #264414; margin: 0 15px;
+ }
+.navbar .navbar-nav .nav-link:hover
+{
+	color: #fff; font-weight: 300
+}
+
+.subtitle
+{
+	font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 2rem;
+	color: hotpink
+}
+.nav-pills .nav-link { background:#dde255; color:#264414 ; margin: 5px 2px}
+.nav-pills .nav-link.active{ background:#f98805 ; color:#f8dbdb}
+
+#welcome{
+	background:linear-gradient(180deg,#F35695 55%,#f8dbdb)
+} 
+#welcome h1 {color: #fff; font-size: 48pt;}
+#welcome p{color:#DDE255; margin: 2px; font-weight: bold}
+#welcome h3{ color: #fff; margin: 8 10px;
+	
+	
+}
+.fa {color:#fff}
+#about{
+	background-color:#13010B;
+	color:#fff
+}
+#project{
+	background-color:#13010B;
+	color:#fff
+}
+
+#team{
+	background-color:#13010B;
+	color:#fff
+}
+#team h1{ color:#dde255}
+#services{
+	background-color:#f8dbdb;
+	color:#f35695
+}
+#skill{
+	background-color:#f8dbdb;
+	color:#f35695
+}
+#skill h6{ 
+font-weight: 600; font-size: 11pt
+}
+#skill p ul{
+list-style-type: disc;
+}
+#contact{
+	background-color:#f8dbdb;
+	color:#f35695
+}
+.service-card {
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box; margin: auto;
+}
+.service-card:hover {
+  background-color: #dde255;
+  color: white;
+}
